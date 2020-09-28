@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Login | Promedia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" type="text/css" media="all" />
+    <link rel="icon" href="../img/icono4.ico" type="image/ico" />
+    <script src="./formularios_index.js" charset="utf-8"></script>
+    <script src="./validacionIndex.js" charset="utf-8" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <!--Main content-->
+    <div class="contentLanding">
+      <a href="#">
+        <img class="iconosLanding" src="../img/icono4.ico" alt="" />
+      </a>
+      <h1 class="titleLanding">Promedia</h1>
+      <p class="textLanding">
+        una aplicacion simple para sacar promedios rapidamente
+      </p>
+
+      <!--div 2 button options: "iniciar" and "registrarse"-->
+      <div class="botones-centrales">
+        <div class="mainbuttons">
+          <input
+            type="button"
+            class="button in"
+            name=""
+            id="registrarse"
+            value="registrarse"
+          />
+          <br />
+          <input
+            type="button"
+            class="button in"
+            name=""
+            id="iniciar"
+            value="     iniciar    "
+          />
+        </div>
+
+        <!--div 1 button option "contacto"-->
+        <div>
+          <input
+            class="buttonSmall button-transparent in"
+            type="button"
+            name=""
+            id=""
+            value="contacto"
+          />
+        </div>
+      </div>
+      <div class="formulario1">
+        <div class="form1">
+	  <form class="formReg" action="../backend/registrarUsuario.php" method="POST">
+            <div>
+              <label for="nombre">nombre</label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombreR"
+                value=""
+                class="camposTexto in"
+		required
+	        maxlength="14"     
+	        minlength = "3"
+              />
+              <label for="correo">correo</label>
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                value=""
+                class="camposTexto in"
+              />
+              <label for="clave">clave</label>
+              <input
+                type="password"
+                name="clave"
+                id="claveR"
+                value=""
+                class="camposTexto in"
+
+              />
+              <label for="repetir">repetir clave</label>
+              <input
+                type="password"
+                name="repetir"
+                id="repetir"
+                value=""
+                class="camposTexto in"
+              />
+            </div>
+            <input
+              class="buttonSmall in"
+	      type="submit"
+              value="aceptar"
+              name=""
+              id="btnaceptar"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="formulario2">
+        <div class="form1">
+	  <form class="formReg" action="../backend/validacionUsuario.php" method="GET">
+            <label for="nombre">nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombreI"
+              value=""
+              class="camposTexto in"
+	      />	    
+            <label for="clave">clave</label>
+            <input
+              type="password"
+              name="clave"
+              id="claveI"
+              value=""
+              class="camposTexto in"
+            />
+            <input
+              class="buttonSmall in"
+              type="submit"
+              value="aceptar"
+              name=""
+              id="btnaceptar"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+ 

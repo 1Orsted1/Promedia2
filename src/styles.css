@@ -1,0 +1,164 @@
+/*estandard content*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  background-color: #d6d9b2;
+}
+
+/*landig page configuration*/
+.contentLanding {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.titleLanding {
+  font-size: 6rem;
+  padding: 0.5rem;
+}
+.title {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.textLanding {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.mainbuttons {
+  justify-content: center;
+  padding: 4rem;
+}
+
+.button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #d6d9b2;
+  font-weight: 300;
+  display: inline-block;
+  text-align: center;
+  padding: 1.5rem 8rem;
+  margin: 2rem;
+  border-radius: 0.2rem;
+}
+
+.buttonSmall {
+  font-size: 1.1rem;
+  color: white;
+  background-color: #d6d9b2;
+  font-weight: 300;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 4rem;
+  margin: 2rem;
+  border-radius: 0.2rem;
+}
+
+.button-transparent {
+  opacity: 80%;
+}
+
+.iconosLanding {
+  transform: scale(0.4);
+}
+
+/*form1 */
+.form1 {
+  width: 20rem;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  margin: auto;
+  text-align: left;
+}
+
+.camposTexto {
+  width: 20rem;
+  height: 2.5rem;
+  background-color: #d6d9b2;
+}
+
+.formulario1 {
+  display: none;
+  width: 96%;
+}
+.formulario2 {
+  display: none;
+}
+.botones-centrales {
+  display: block;
+}
+
+.espacio {
+  padding: 0.9rem;
+  margin: 2rem;
+}
+
+/*estilos especiales para la pagina de inicio*/
+.prueva {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.orden1 {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.tabla {
+  margin-top: 1rem;
+  text-align: center;
+}
+.in {
+  background-color: #006a71;
+}
+input:not([type="button"]) { 
+  font-size: 2rem;
+  background-color: #cbeaed;
+  color: #006a71;
+}
+
+table {
+  text-align: center;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.es{
+padding-right:2rem;
+text-align: left;
+}
+
+.red2{
+color:red;
+font-size: 1.5rem;
+display: none;
+}
+
+
+.red1{
+color:red;
+font-size: 1.5rem;
+display: none;
+}

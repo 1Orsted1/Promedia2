@@ -1,0 +1,102 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
+      <title>Practica 1</title>
+      <link
+        rel="stylesheet"
+        href="./styles.css?4"
+        type="text/css"
+        media="all"
+      />
+
+      <script src="./eventosInicio.js" charset="utf-8"></script>
+
+      <!--Estas etiquetas son para que no se almacenen datos en la cache -->
+      <meta http-equiv="Expires" content="0" />
+      <meta http-equiv="Last-Modified" content="0" />
+      <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <!---->
+    </head>
+    <body>
+      <section>
+        <div class="contentLanding">
+          <h1 class="title">Promedia</h1>
+          <div class="textLanding">
+            <form id="form" action="#" method="post" class="textLanding">
+              <div class="">
+                <label for="cantidad">Introduce el nombre de la materia</label>
+              </div>
+              <br />
+              <div class="">
+                <input
+                  type="text"
+                  class="camposTexto espacio in"
+                  name=""
+                  id="materia"
+                  value=""
+                />
+                <br />
+
+		<label class="red1">nombre de la materia no valido</label>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="col-md-3">
+                  <label for="cantidad"
+                    >Introduce la calificacion de la materia
+                  </label>
+                </div>
+                <br />
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="camposTexto espacio in"
+                    name=""
+                    id="calificacion"
+                    value=""
+                  />
+                  <br/>
+		  <label class="red2">se debe establecer una calificacion de 50 - 100</label>
+                </div>
+              </div>
+            </form>
+            <div class="orden1">
+              <input
+                type="button"
+                class="buttonSmall id in"
+                name="confirmarAlumno"
+                id="agregarAlumno"
+                value="Agregar"
+              />
+
+              <input
+                type="button"
+                class="buttonSmall in"
+                name="confirmarCalificacion"
+                id="calcularPromedio"
+                value="Calcular"
+              />
+            </div>
+            <div class="prueva">
+              <table
+                class="contentLanding tabla"
+                id="lista"
+                border="0"
+                width="20%"
+              >
+                <tr>
+                  <th>Materia</th>
+                  <th>Calificacion</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
+</DOCTYPE>
