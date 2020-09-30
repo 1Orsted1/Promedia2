@@ -4,6 +4,8 @@ window.onload = function () {
 
   var calcularPromedio = document.getElementById("calcularPromedio");
   calcularPromedio.addEventListener("click", calcular);
+
+
 };
 
 function agregarDato(valor, result) {

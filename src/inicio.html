@@ -11,7 +11,7 @@
         media="all"
       />
 
-      <script src="./eventosInicio.js" charset="utf-8"></script>
+      <script src="./Inicio2.js" charset="utf-8"></script>
 
       <!--Estas etiquetas son para que no se almacenen datos en la cache -->
       <meta http-equiv="Expires" content="0" />
@@ -40,7 +40,7 @@
                 />
                 <br />
 
-		<label class="red1">nombre de la materia no valido</label>
+                <label class="red1">campo obligatorio</label>
               </div>
               <br />
 
@@ -59,20 +59,29 @@
                     id="calificacion"
                     value=""
                   />
-                  <br/>
-		  <label class="red2">se debe establecer una calificacion de 50 - 100</label>
+                  <br />
+                  <label class="red2"
+                    >se debe establecer una calificacion de 50 - 100</label
+                  >
+                  <br />
+                  <input
+                    type="submit"
+                    class="buttonSmall id in"
+                    name="confirmarAlumno"
+                    id="agregarAlumno"
+                    value="Agregar"
+                  />
+                  <input
+                    type="submit"
+                    class="buttonSmall id in"
+                    name="confirmarAlumno"
+		    id="eliminarAlumno"
+                    value="Eliminar"
+                  />
                 </div>
               </div>
             </form>
             <div class="orden1">
-              <input
-                type="button"
-                class="buttonSmall id in"
-                name="confirmarAlumno"
-                id="agregarAlumno"
-                value="Agregar"
-              />
-
               <input
                 type="button"
                 class="buttonSmall in"

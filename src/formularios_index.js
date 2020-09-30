@@ -12,6 +12,13 @@ window.onload = function () {
    function mostrarFormI() {
     document.querySelector(".formulario2").style.display = "block";
     document.querySelector(".botones-centrales").style.display = "none";
+
+    var botonIniciar = document.querySelector("#btnAceptarI");
+     botonIniciar.addEventListener("click", ()=>{
+      
+	localStorage.clear();
+
+     });
   }
 
 }; 
